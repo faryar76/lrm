@@ -1,0 +1,20 @@
+{
+    "name": "faryar76/lsd",
+    "description": "this package usefull for manage laravel projects in sharing hosts",
+    "type": "n",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "faryar",
+            "email": "faryar76@hotmil.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Faryar76\\lsd\\":"src/"
+        }
+    },
+     
+}

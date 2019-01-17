@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<phpunit colors="true" stopOnFailure="true" verbose="true">
+    <testsuites>
+        <testsuite name="php_unit_test">
+            <directory>    
+                tests
+            </directory>    
+        </testsuite>    
+    </testsuites>
+</phpunit>
