@@ -64,12 +64,14 @@ php artisan lrm:upload "app\Http" --sub
 php artisan lrm:migrate 		// will do php artisan migrate
 php artisan lrm:migrate refresh 	// will do php artisan migrate:refresh
 php artisan lrm:migrate rollback 	// will do php artisan migrate:rollback
+...
 ```
 #### upload local migrate files to server and run them
 ```
 php artisan lrm:sync_migrate		// will do php artisan migrate
 php artisan lrm:sync_migrate refresh 	// will do php artisan migrate:refresh
 php artisan lrm:sync_migrate rollback 	// will do php artisan migrate:rollback
+...
 ```
 # 
 
