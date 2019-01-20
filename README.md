@@ -4,9 +4,9 @@
 #### by using this package , you can easily manage your project remotely (__without ssh__).
 For example :
 
-0. You can run the database migrations files even in server __without__ __"ssh"__
-1. You can move migration files from your system to the server and then run database migration command __without ssh__. 
-2. You can __upload__ your edited files into the server without entering your own management panel (cpanel or directadmin ...). or upload a new file (or folders) __without ssh__ .
+1. You can run the database migrations files even in server __without__ __"ssh"__
+2. You can move migration files from your system to the server and then run database migration command __without ssh__. 
+3. You can __upload__ your edited files into the server without entering your own management panel (cpanel or directadmin ...). or upload a new file (or folders) __without ssh__ .
 
 
  ### Installation
