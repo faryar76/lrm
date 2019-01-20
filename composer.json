@@ -1,6 +1,6 @@
 {
     "name": "faryar76/lrm",
-    "description": "this package usefull for manage laravel projects in sharing hosts",
+    "description": "laravel remote manager package",
     "type": "package",
     "license": "MIT",
     "authors": [

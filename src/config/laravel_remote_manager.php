@@ -6,16 +6,20 @@ $key=(strpos(config('app.key'),'base64')!==false) ?
 
 
 
-
-
-
-
-
 return [
 
-    "host_path"     =>"http://localhost:8000/",
-    // "host_path"=>"https://goitrous-restaurant.000webhostapp.com/public/",
+    /**
+     * host path.
+     */
 
+    "host_path"     =>"", //"http://someDomaing.com/"
+
+    /**
+     * defult conect route.it will changes every 10 seconds automaticly
+     */
     "default_route" =>hash('sha512',$key.substr(time(),0,9)),
-    "password"      =>hash('sha512',"password")
+    /**
+     * some password for more secure.
+     */
+    "password"      =>hash('sha512',"your-password-to-more-secure")
 ];
