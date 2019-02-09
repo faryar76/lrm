@@ -75,6 +75,7 @@ php artisan lrm:sync_migrate rollback 	// will do php artisan migrate:rollback
 ```
 # 
 
+# License MIT
 ```
 Notice: old files will backup and move to "old_files" folder on your server 
 ```
